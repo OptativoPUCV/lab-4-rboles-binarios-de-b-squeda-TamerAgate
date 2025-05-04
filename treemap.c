@@ -255,6 +255,19 @@ Pair * nextTreeMap(TreeMap * tree)
         tree->current = siguiente;
         return siguiente->pair;
     }
-    
+
+    TreeNode *parent = current->parent;
+    while (parent != NULL && current == parent->right)
+    {
+        current = parent;
+        parent = parent->parent;
+    }
+
+    if (parent != NULL)
+    {
+        tree->current = parent;
+        return parent->pair;
+    }
+
     return NULL;
 }
