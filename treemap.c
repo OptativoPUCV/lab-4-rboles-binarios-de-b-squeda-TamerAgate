@@ -176,6 +176,7 @@ Pair * upperBound(TreeMap * tree, void* key)
         return candidato->pair;
     }
 
+    return NULL;
 }
 
 Pair * firstTreeMap(TreeMap * tree) 
