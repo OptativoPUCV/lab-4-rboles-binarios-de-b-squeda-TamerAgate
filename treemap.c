@@ -145,13 +145,7 @@ void removeNode(TreeMap * tree, TreeNode* node)
         }
         hijo->parent = node->parent;
     }
-    else
-    {
-        TreeNode * siguiente = minimum(node->right);
-        node->pair = siguiente->pair;
-        removeNode(tree, siguiente);
-        return;
-    }
+    
 
     free(node->pair);
     free(node);
