@@ -108,3 +108,9 @@ treemap.c:161:6: note: declared here
       ^~~~~~~~~~~~
 cc1.exe: all warnings being treated as errors
 e7d9e79
+do.,  4 de may. de 2025 14:26:01: 
+ treemap.c | 2 --
+ 1 file changed, 2 deletions(-)
+ tests:  24|1
+total_score: 55/70
+8536815
