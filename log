@@ -76,3 +76,9 @@ do.,  4 de may. de 2025 14:10:52:
  tests:  21|2
 total_score: 40/70
 753182b
+do.,  4 de may. de 2025 14:23:43: 
+ treemap.c | 51 ++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 50 insertions(+), 1 deletion(-)
+ tests:  24|1
+total_score: 55/70
+c809d1c
