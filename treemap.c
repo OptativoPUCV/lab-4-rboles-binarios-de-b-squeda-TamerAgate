@@ -150,7 +150,7 @@ void removeNode(TreeMap * tree, TreeNode* node)
         TreeNode * siguiente = minimum(node->right);
         node->pair = siguiente->pair;
         removeNode(tree, siguiente);
-        
+        return;
     }
 
     free(node->pair);
